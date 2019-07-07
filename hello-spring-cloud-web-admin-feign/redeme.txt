@@ -1,0 +1,1 @@
+jar启动： java -jar hello-spring-cloud-web-admin-feign-1.0.0-SNAPSHOT.jar --spring.profiles.active=pro

@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: hello-spring-cloud-service-admin
+  zipkin:
+    base-url: http://localhost:9411
+  boot:
+    admin:
+      client:
+        url: http://localhost:8084
+server:
+  port: 8762
+
+eureka:
+  client:
+    fetch-registry: false # 这个表示是否从注册中心取回服务的地址
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

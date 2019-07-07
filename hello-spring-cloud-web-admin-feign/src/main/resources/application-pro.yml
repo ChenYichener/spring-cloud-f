@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    config:
+      name: web-admin-feign   # 配置文件的名字
+      label: master           # 分支
+      profile: pro            # 需要激活的配置文件
+
+# 在config的客户端仅仅需要config的地址等信息就好了，其他的配置是云配置
